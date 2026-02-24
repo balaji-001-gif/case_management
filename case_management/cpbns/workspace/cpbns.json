@@ -1,0 +1,197 @@
+{
+    "charts": [],
+    "content": "[{\"id\":\"monitoring_card\",\"type\":\"card\",\"data\":{\"card_name\":\"Protection Monitoring\",\"col\":6}},{\"id\":\"mapping_card\",\"type\":\"card\",\"data\":{\"card_name\":\"Mapping Services\",\"col\":6}},{\"id\":\"referrals_card\",\"type\":\"card\",\"data\":{\"card_name\":\"Referrals\",\"col\":6}},{\"id\":\"location_card\",\"type\":\"card\",\"data\":{\"card_name\":\"Location\",\"col\":6}}]",
+    "creation": "2020-08-28 01:20:57.061338",
+    "docstatus": 0,
+    "doctype": "Workspace",
+    "for_user": "",
+    "hide_custom": 0,
+    "icon": "map",
+    "idx": 0,
+    "is_hidden": 0,
+    "label": "CPBNs",
+    "links": [
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Protection Monitoring",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "FGD Tool",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "FGD Tool",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "FGD Tool",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Key Information Interview",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Key Information Interview",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Direct Observation",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Direct Observation",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Household Assessment",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Household Assessment",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Mapping Services",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Service",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Service",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Service",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Service Provider",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Service Provider",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Referrals",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Referral",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Referral",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Referral",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Location",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Country",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Country",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Country",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Governorate",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Governorate",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "District",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "District",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Area",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Area",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Street",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Street",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Landmark",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Landmark",
+            "onboard": 0,
+            "type": "Link"
+        }
+    ],
+    "modified": "2024-01-01 00:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "CPBNs",
+    "name": "CPBNs",
+    "owner": "Administrator",
+    "parent_page": "",
+    "public": 1,
+    "restrict_to_domain": "",
+    "roles": [],
+    "sequence_id": 2,
+    "shortcuts": [],
+    "title": "CPBNs"
+}

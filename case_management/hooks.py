@@ -1,13 +1,9 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "case_management"
 app_title = "Case Management"
 app_publisher = "Akram Mutaher"
 app_description = "App To Manage Cases."
-app_icon = "octicon octicon-file-directory"
-app_color = "grey"
 app_email = "a.mutaher@partner-cons.com"
 app_license = "MIT"
 
@@ -15,7 +11,7 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "assets/css/erpnext.css"
+# app_include_css = "/assets/case_management/css/case_management.css"
 # app_include_js = "/assets/case_management/js/case_management.js"
 
 # include js, css files in header of web template
@@ -39,11 +35,8 @@ app_include_css = "assets/css/erpnext.css"
 
 # website user home page (by Role)
 # role_home_page = {
-#	"Role": "home_page"
+# 	"Role": "home_page"
 # }
-
-# Website user home page (by function)
-# get_website_user_home_page = "case_management.utils.get_home_page"
 
 # Generators
 # ----------
@@ -56,6 +49,12 @@ app_include_css = "assets/css/erpnext.css"
 
 # before_install = "case_management.install.before_install"
 # after_install = "case_management.install.after_install"
+
+# Uninstallation
+# ------------
+
+# before_uninstall = "case_management.uninstall.before_uninstall"
+# after_uninstall = "case_management.uninstall.after_uninstall"
 
 # Desk Notifications
 # ------------------
@@ -84,7 +83,7 @@ app_include_css = "assets/css/erpnext.css"
 # 		"on_update": "method",
 # 		"on_cancel": "method",
 # 		"on_trash": "method"
-#	}
+# 	}
 # }
 
 # Scheduled Tasks
@@ -102,7 +101,7 @@ app_include_css = "assets/css/erpnext.css"
 # 	],
 # 	"weekly": [
 # 		"case_management.tasks.weekly"
-# 	]
+# 	],
 # 	"monthly": [
 # 		"case_management.tasks.monthly"
 # 	]
@@ -127,7 +126,22 @@ app_include_css = "assets/css/erpnext.css"
 # 	"Task": "case_management.task.get_dashboard_data"
 # }
 
-fixtures = ["Participant Identified","Target Population","Governorate","District","Area",
-"Displacement Period","Relation Host community and IDPs","Service","Challenge","Venerable",
-"Affect","Communicate Chanel","Violence Type","Occupation","Comprehensive Reason","Protection Concern",
-"Specific Needs Profile"]
+fixtures = [
+	"Participant Identified",
+	"Target Population",
+	"Governorate",
+	"District",
+	"Area",
+	"Displacement Period",
+	"Relation Host community and IDPs",
+	"Service",
+	"Challenge",
+	"Venerable",
+	"Affect",
+	"Communicate Chanel",
+	"Violence Type",
+	"Occupation",
+	"Comprehensive Reason",
+	"Protection Concern",
+	"Specific Needs Profile",
+]

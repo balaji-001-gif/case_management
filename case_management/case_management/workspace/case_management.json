@@ -1,0 +1,264 @@
+{
+    "charts": [
+        {
+            "chart_name": "Cases Information",
+            "label": "Cases Information"
+        }
+    ],
+    "content": "[{\"id\":\"cases_shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Cases\",\"col\":4}},{\"id\":\"gbv_shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"GBV Cases\",\"col\":4}},{\"id\":\"dashboard_shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Dashboard\",\"col\":4}},{\"id\":\"cases_chart\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Cases Information\",\"col\":12}},{\"id\":\"cases_card\",\"type\":\"card\",\"data\":{\"card_name\":\"Cases\",\"col\":4}},{\"id\":\"gbv_card\",\"type\":\"card\",\"data\":{\"card_name\":\"GBV Case Management\",\"col\":4}},{\"id\":\"cp_card\",\"type\":\"card\",\"data\":{\"card_name\":\"CP Case Management\",\"col\":4}},{\"id\":\"general_card\",\"type\":\"card\",\"data\":{\"card_name\":\"General Case Management\",\"col\":4}},{\"id\":\"implementation_card\",\"type\":\"card\",\"data\":{\"card_name\":\"Implementation\",\"col\":4}},{\"id\":\"services_card\",\"type\":\"card\",\"data\":{\"card_name\":\"Services Forms\",\"col\":4}}]",
+    "creation": "2020-08-28 01:53:37.100833",
+    "docstatus": 0,
+    "doctype": "Workspace",
+    "for_user": "",
+    "hide_custom": 0,
+    "icon": "healthcare",
+    "idx": 0,
+    "is_hidden": 0,
+    "label": "Case Management",
+    "links": [
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Cases",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Basic Information",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Basic Information",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Basic Information",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "GBV Case Management",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "GBV Case",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "GBV Case",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "GBV Case",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "GBV Assessment",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "GBV Assessment",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "GBV Closure Form",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "GBV Closure Form",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "CP Case Management",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "CP Case",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "CP Case",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "CP Case",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "CP Assessment",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "CP Assessment",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "CP Closure Form",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "CP Closure Form",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "General Case Management",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "General Case",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "General Case",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "General Case",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "General Assessment",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "General Assessment",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "General Closure Form",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "General Closure Form",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Implementation",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Case Action Plan",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Case Action Plan",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Case Action Plan",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Case Plan Tracker",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Case Plan Tracker",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Evaluate Services Implementation",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Evaluate Services Implementation",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Services Forms",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Cash Assessment",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Cash Assessment",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Cash Assessment",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Livelihood Assessment",
+            "link_count": 0,
+            "link_type": "DocType",
+            "link_to": "Livelihood Assessment",
+            "onboard": 0,
+            "type": "Link"
+        }
+    ],
+    "modified": "2024-01-01 00:00:00.000000",
+    "modified_by": "Administrator",
+    "module": "Case Management",
+    "name": "Case Management",
+    "owner": "Administrator",
+    "parent_page": "",
+    "public": 1,
+    "restrict_to_domain": "",
+    "roles": [],
+    "sequence_id": 1,
+    "shortcuts": [
+        {
+            "color": "Red",
+            "format": "{} Open",
+            "label": "Cases",
+            "link_to": "Basic Information",
+            "stats_filter": "{\"status\":[\"=\",\"Open\"]}",
+            "type": "DocType"
+        },
+        {
+            "color": "Green",
+            "format": "{} Active",
+            "label": "GBV Cases",
+            "link_to": "GBV Case",
+            "stats_filter": "{\"status\":[\"=\",\"Open\"]}",
+            "type": "DocType"
+        },
+        {
+            "label": "Dashboard",
+            "link_to": "Case Management",
+            "type": "Dashboard"
+        }
+    ],
+    "title": "Case Management"
+}

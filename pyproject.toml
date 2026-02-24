@@ -1,0 +1,20 @@
+[project]
+name = "case_management"
+authors = [
+    { name = "Akram Mutaher", email = "a.mutaher@partner-cons.com" }
+]
+description = "App To Manage Cases."
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench]
+dev-dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/balaji-001-gif/case_management"
+Repository = "https://github.com/balaji-001-gif/case_management"
